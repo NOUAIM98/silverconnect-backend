@@ -25,7 +25,7 @@ const UserSchema = new mongoose.Schema(
       required: true,
     },
   },
-  { timestamps: true } // adds createdAt & updatedAt
+  { timestamps: true } 
 );
 
 module.exports = mongoose.model("User", UserSchema);
