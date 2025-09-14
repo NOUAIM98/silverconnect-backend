@@ -10,13 +10,13 @@ const UserSchema = new mongoose.Schema(
     username: {
       type: String,
       required: true,
-      unique: true, // ensures no duplicates
+      unique: true, 
       trim: true,
     },
     email: {
       type: String,
       required: true,
-      unique: true, // ensures each email is unique
+      unique: true, 
       lowercase: true,
       trim: true,
     },
